@@ -1,0 +1,13 @@
+/** @format */
+
+.booking-section {
+  display: flex;
+}
+.order-section {
+  margin: 20px;
+}
+.booking_products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 40px;
+}

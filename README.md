@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+<!-- @format -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started with Best Baby Lotion
 
-## Available Scripts
+This is Travel Website. The Site Name "Baby Lotion" The Live Site Link is "https://bd-travel-c4f84.web.app/".
 
-In the project directory, you can run:
+## Best Baby Lotion
 
-### `npm start`
+Best Baby Lotion for All Skin Types As a new mom, it’s natural to only want the best for baby’s skin. Read our quick guide to make sure you pick the best baby lotion for your baby's skin type.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Baby’s skin is much more
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Baby’s skin is much more sensitive and delicate than yours, and seeing your little one suffer through skin irritations can be disheartening. Here at The Bump, we have created a quick guide to the best baby lotions as well as our top picks for different skin ailments. This guide will help you choose which lotion is best for baby’s skin.
 
-### `npm test`
+## So what is baby lotion for
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+So what is baby lotion for? Many new moms wonder, When can you put lotion on a baby? Can you put lotion on a newborn? Newborn babies generally do not need to be moisturized by store-bought products—their delicate skin is prone to irritations. Baby skin, however, does require some protection and needs to be moisturized to retain hydration, especially after baths. Dermatologists and pediatricians agree; the best baby lotion depends on your personal preference as well as the type of skin baby has.
 
-### `npm run build`
+## You can choose from creams
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can choose from creams, which do a great job of deep moisturizing without the greasiness of ointments, or you can choose lotions, which absorb very quickly into baby’s skin for overall repair and protection. Be aware of any allergies baby may have to certain ingredients in baby lotions, which can cause rashes and skin irritations when used. Plant-based oils and extracts are common irritants that can inflame baby’s skin. Here are some things to look for on the label when shopping for the best baby lotion for your family:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Free of Dye and Synthetic Fragrances
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Free of Dye and Synthetic Fragrances. Especially for newborns, a natural unscented baby lotion should be used.
 
-### `npm run eject`
+## Free of Paraben
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Free of Paraben. This is a well-known endocrine disruptor. Free of Phenoxyethanol. This is well known as a suspected carcinogen. Free of preservatives. These are the number-one cause of skin irritations and allergic reactions.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Plant-based oils
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Plant-based oils that are organically extracted.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Best Baby Lotion
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Best Baby Lotion – Overall If baby has normal skin that’s not too sensitive or eczema prone, you can count your blessings and take advantage of some low-cost baby lotions that are still great for his or her skin. You can usually find these at any drugstore or supermarket without having to do prolonged research and trial and error on baby’s delicate skin. Just keep in mind to stay away from baby lotions that have a lot of chemicals that can be toxic to your little one.

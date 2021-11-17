@@ -1,0 +1,46 @@
+/** @format */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 40px;
+}
+.product {
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+.my_button {
+  text-decoration: none;
+  color: white;
+  background-color: #ee1470;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ee1470;
+}
+
+.my_button:hover {
+  background-color: #ee1459;
+  color: white;
+  text-decoration: underline;
+}
+.delete_button {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.delete_button:hover {
+  background-color: rgb(212, 14, 14);
+  color: white;
+  text-decoration: underline;
+  border: 1px solid rgb(212, 14, 14);
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .mobile-div {
+    display: flex;
+  }
+}

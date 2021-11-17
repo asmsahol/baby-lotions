@@ -1,0 +1,30 @@
+/** @format */
+
+.footer {
+  background-color: pink;
+  height: 100%;
+  overflow: hidden;
+}
+.footer-text {
+  padding-top: 35px;
+}
+.copy-right {
+  border-top: 5px solid #ee1470;
+}
+.form-input {
+  width: 100%;
+  padding: 2px 5px;
+  border: 1px solid white;
+}
+.form {
+  border: 5px solid white;
+  border-radius: 5px;
+}
+.message {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.icon {
+  font-size: 400px;
+  color: #ee1470;
+}

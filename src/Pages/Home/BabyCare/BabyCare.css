@@ -1,0 +1,23 @@
+/** @format */
+
+.baby_care {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 10px;
+}
+
+.b_care {
+  margin: 20px;
+}
+.card_footer {
+  background-color: #ecdbe2;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .baby_care {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px auto;
+  }
+}

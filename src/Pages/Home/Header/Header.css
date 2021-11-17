@@ -1,0 +1,53 @@
+/** @format */
+
+.nav_top {
+  border-bottom: 3px solid #ee1470;
+  font-weight: 700;
+}
+.brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.menu {
+  color: black;
+}
+
+.site_title {
+  color: #ee1470 !important;
+  font-weight: 700;
+}
+
+.menu:hover {
+  color: #ee1470 !important;
+  text-decoration: none;
+}
+.brand:hover {
+  color: #ee1470;
+}
+
+.login-name {
+  display: flex;
+  color: white;
+}
+.login-photo {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0px 5px 5px 5px;
+}
+
+/* For Mobile */
+@media only screen and (max-width: 768px) {
+  .navbar-expand .navbar-nav {
+    flex-direction: column;
+  }
+  .login-photo {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px 5px 5px;
+  }
+  .login-name {
+    display: contents;
+  }
+}

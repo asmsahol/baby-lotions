@@ -1,0 +1,23 @@
+/** @format */
+
+.log_in_google {
+  background-color: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid blue;
+}
+.log_in_google:hover {
+  background-color: rgb(15, 15, 155);
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+
+.login_from {
+  width: 100%;
+  margin-top: 70px;
+}
+.login-mail {
+  padding: 12px;
+}

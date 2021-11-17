@@ -1,0 +1,41 @@
+/** @format */
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .mobile_services {
+    display: inherit !important;
+    margin: 10px auto;
+    padding: 5px;
+  }
+  .services {
+    display: inherit !important;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+  }
+  .order_service {
+    display: flex;
+    margin: 0 auto;
+  }
+  .booking-section {
+    display: inherit !important;
+  }
+  .message {
+    display: inherit !important;
+  }
+  .icon {
+    font-size: 100px;
+    color: #ee1470;
+  }
+  .products {
+    display: inherit !important;
+    margin: 10px;
+    width: 100%;
+  }
+  .product {
+    margin: 10%;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+  }
+}

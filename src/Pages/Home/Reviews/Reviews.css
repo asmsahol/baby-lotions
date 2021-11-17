@@ -1,0 +1,14 @@
+/** @format */
+
+.icon-color {
+  color: #ee1470;
+}
+.reviews {
+  width: 100% !important;
+}
+.reviews_name {
+  background-color: pink;
+}
+.reviews_border {
+  border: 1px solid pink;
+}
