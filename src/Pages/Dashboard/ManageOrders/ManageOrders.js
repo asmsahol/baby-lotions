@@ -12,7 +12,7 @@ const ManageOrders = () => {
 
   // All Order
   useEffect(() => {
-    fetch("http://localhost:5000/booking")
+    fetch("https://vast-ravine-14464.herokuapp.com/booking")
       .then(res => res.json())
       .then(result => {
         setOrders(result);
@@ -21,7 +21,7 @@ const ManageOrders = () => {
 
   // Handle Delete
   const handleDelete = id => {
-    fetch(`http://localhost:5000/booking/${id}`, {
+    fetch(`https://vast-ravine-14464.herokuapp.com/booking/${id}`, {
       method: "DELETE",
     })
       .then(res => res.json())
@@ -37,7 +37,7 @@ const ManageOrders = () => {
   };
 
   const handleUpdateStatus = id => {
-    const url = `http://localhost:5000/updateStatus/${id}`;
+    const url = `https://vast-ravine-14464.herokuapp.com/updateStatus/${id}`;
     fetch(url, {
       method: "PUT",
       headers: {

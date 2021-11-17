@@ -11,7 +11,7 @@ const Home = () => {
   // Load Products
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://vast-ravine-14464.herokuapp.com/products")
       .then(res => res.json())
       .then(data => setProducts(data));
   }, [products]);
@@ -19,7 +19,7 @@ const Home = () => {
   // Load Baby Care
   const [babyCare, setBabyCare] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/baby_care")
+    fetch("https://vast-ravine-14464.herokuapp.com/baby_care")
       .then(res => res.json())
       .then(data => setBabyCare(data));
   }, []);
@@ -27,7 +27,7 @@ const Home = () => {
   // Load Reviews
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/reviews")
+    fetch("https://vast-ravine-14464.herokuapp.com/reviews")
       .then(res => res.json())
       .then(data => setReviews(data));
   }, []);

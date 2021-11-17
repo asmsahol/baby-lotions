@@ -10,7 +10,7 @@ const ManageProducts = () => {
   const [products, setProducts] = useState([]);
   const [product, setProduct] = useState({});
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://vast-ravine-14464.herokuapp.com/products")
       .then(res => res.json())
       .then(result => {
         setProducts(result);
@@ -19,7 +19,7 @@ const ManageProducts = () => {
 
   // Handle Delete
   const handleDelete = id => {
-    fetch(`http://localhost:5000/products/${id}`, {
+    fetch(`https://vast-ravine-14464.herokuapp.com/products/${id}`, {
       method: "DELETE",
     })
       .then(res => res.json())
@@ -30,7 +30,7 @@ const ManageProducts = () => {
 
   // Handle Update
   const handleUpdate = id => {
-    const url = `http://localhost:5000/products/${id}`;
+    const url = `https://vast-ravine-14464.herokuapp.com/products/${id}`;
     fetch(url, {
       method: "PUT",
       headers: {

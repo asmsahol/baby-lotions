@@ -13,7 +13,7 @@ const Admin = () => {
     const user = { email };
     console.log(user);
     e.preventDefault();
-    fetch("http://localhost:5000/users/admin/", {
+    fetch("https://vast-ravine-14464.herokuapp.com/users/admin/", {
       method: "PUT",
       headers: {
         "content-type": "application/json",

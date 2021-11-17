@@ -12,14 +12,14 @@ const MyOrder = () => {
   // My Order
   const [myOrder, setMyOrder] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/booking")
+    fetch("https://vast-ravine-14464.herokuapp.com/booking")
       .then(res => res.json())
       .then(data => setMyOrder(data));
   }, [myOrder]);
 
   // Handle Delete
   const handleDelete = id => {
-    fetch(`http://localhost:5000/booking/${id}`, {
+    fetch(`https://vast-ravine-14464.herokuapp.com/booking/${id}`, {
       method: "DELETE",
     })
       .then(res => res.json())
@@ -37,7 +37,7 @@ const MyOrder = () => {
         >
           <Card.Img variant='top' src={order.img} />
           <Card.Body>
-            <Card.Title>{order.product}</Card.Title>
+            <Card.Title>{order.service}</Card.Title>
             <Card.Text>{order.price}</Card.Text>
             <Button
               onClick={() => handleDelete(order._id)}

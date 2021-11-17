@@ -24,7 +24,7 @@ const Booking = props => {
   const onSubmit = data => {
     data.status = "Pending";
     data.email = email;
-    fetch("http://localhost:5000/booking", {
+    fetch("https://vast-ravine-14464.herokuapp.com/booking", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
@@ -101,11 +101,7 @@ const Booking = props => {
             {/* errors will return when field validation fails  */}
             {errors.exampleRequired && <span>This field is required</span>}
 
-            <input
-              type='submit'
-              className='btn btn-success bd-btn'
-              value='Order'
-            />
+            <input type='submit' className='my_button' value='Order' />
           </form>
         </div>
       ))}
